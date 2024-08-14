@@ -23,5 +23,6 @@ namespace ExaminationSystem.AutoFac
             builder.RegisterAssemblyTypes(typeof(IQuestionService).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterAssemblyTypes(typeof(IExamQuestionService).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
         }
+        //////////////////////////////////////////////////////////////////////////
     }
 }
